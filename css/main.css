@@ -170,15 +170,41 @@ html,body{
     height: 128px;
   }
   .modal-info{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 16px;
     width: 100%;
-    height: 24%;
+    height: 22%;
+    background-color: #67b5e6;
+    color: white;
+    text-align: center;
+  }
+  .info-month{
+    font-size: 28px;
+  }
+  .info-date{
+    font-size: 96px;
+    font-weight: 900;
+  }
+  .info-day-time{
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-size: 28px;
+  }
+  .info-location{
+    line-height: 56px;
+    font-size: 28px;
   }
   .modal-content{
     width: 100%;
-    height: 68%;
+    height: 70%;
   }
   .modal-toolbar{
     width: 100%;
     height: 8%;
+    background-color: #67b5e6;
   }
 /*}*/
