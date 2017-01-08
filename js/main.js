@@ -24,6 +24,27 @@ $('.modal-cancel').click(function() {
 
 //android back button event (close modal)
 $('document').bind('keydown',function(event){
-  $('body').off('scroll touchmove mousewheel');
-  $('.modal-container').attr('display','none');
+  if (event.keyCode == 27) {
+    $('body').off('scroll touchmove mousewheel');
+    $('.modal-container').attr('display','none');
+    event.preventDefault();
+  }
+});
+
+//get diary-card Entries
+$('.tool-entries').html($('.diary-card').length+" Entries");
+
+//swipe function
+$('.page-view').on('swiperight',function(){
+  if ($(this) == $('.page-view:nth-child(1)')) {
+    //not paging
+  }
+  //지금의 nht-child값을 가지고와서 -1
+});
+
+$('page-view').on('swipeleft',function(){
+  if ($(this) == $('.page-view:nth-last-child(1)')) {
+    //not paging
+  }
+    //지금의 nht-child값을 가지고와서 +1
 });
