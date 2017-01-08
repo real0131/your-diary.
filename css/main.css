@@ -4,7 +4,7 @@ html,body{
   padding: 0;
   margin: 0;
 }
-@media screen and (max-device-width: 480px){
+/*@media screen and (max-device-width: 480px){*/
   nav{
     text-align: center;
     background-color: white;
@@ -37,6 +37,7 @@ html,body{
     font-size: 28px;
     background-color: white;
     color: #70a3b4;
+    cursor: pointer;
   }
   .segmented-cell:nth-child(1){
     border-right: none;
@@ -50,9 +51,10 @@ html,body{
     border-top-right-radius: inherit;
     border-bottom-right-radius: inherit;
   }
-  [selected="selected"]{
+  .segmented-cell[selected="selected"]{
     background-color: #70a3b4;
     color: white;
+    cursor: default;
   }
   .title{
     width: 100%;
@@ -62,4 +64,4 @@ html,body{
     font-size: 48px;
     color: #70a3b4;
   }
-}
+/*}*/
