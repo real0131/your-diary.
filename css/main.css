@@ -114,6 +114,7 @@ html,body{
     font-size: 28px;
   }
   .diary-content-container{
+    margin-left: 18px; 
     padding-top: 20px;
     line-height: 170%;
   }
