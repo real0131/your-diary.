@@ -176,7 +176,7 @@ main{
   box-sizing: border-box;
   padding-top: 16px;
   width: 100%;
-  height: 22%;
+  height: 280px;
   background-color: #67b5e6;
   color: white;
   text-align: center;
@@ -283,7 +283,7 @@ main{
   .modal-info{
     padding-top: 12px;
     width: 100%;
-    height: 22%;
+    height: 180px;
   }
   .info-month{
     font-size: 21px;
@@ -378,7 +378,7 @@ main{
   .modal-info{
     padding-top: 8px;
     width: 100%;
-    height: 22%;
+    height: 120px;
   }
   .info-month{
     font-size: 14px;
