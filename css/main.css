@@ -64,6 +64,14 @@ nav{
   cursor: default;
   transition-duration: 0.3s;
 }
+.segmented-cell[selected="selected"]:nth-child(1){
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.segmented-cell[selected="selected"]:nth-last-child(1){
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
 .title{
   width: 100%;
   height: auto;
