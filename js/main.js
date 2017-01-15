@@ -3,8 +3,15 @@ $('.segmented-cell').click(function(){
   if(!($(this).attr('selected')=='selected')){
     $(".segmented-cell[selected='selected']").removeAttr('selected');
     $(this).attr('selected','selected');
+    segmented_paging($(this));
   }
 });
+
+//segmented-control paging
+function segmented_paging(target){
+  $(".page-view[display='show']").removeAttr('display');
+  $('.page-view:nth-child('+(target.index()+1)+')').attr('display','show');
+}
 
 //diary-card click event (open modal)
 $('.diary-card').click(function(){

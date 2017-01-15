@@ -165,7 +165,8 @@ main{
   display: -webkit-flex;
   display: flex;
   flex-flow: column;
-  margin: 64px 64px 0 64px;
+  margin: 48px 20px 0 20px;
+  border-radius: 30px;
   background-color: white;
   height: 88%;
 }
@@ -180,9 +181,11 @@ main{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
   padding-top: 16px;
   width: 100%;
-  height: 280px;
+  height: 260px;
   background-color: #67b5e6;
   color: white;
   text-align: center;
@@ -191,19 +194,19 @@ main{
   font-size: 28px;
 }
 .info-date{
-  font-size: 96px;
-  font-weight: 900;
+  line-height: 144px;
+  font-size: 144px;
 }
 .info-day-time{
   display: -webkit-flex;
   display: flex;
   flex-flow: row;
   justify-content: center;
-  font-size: 28px;
+  font-size: 14px;
 }
 .info-location{
-  line-height: 56px;
-  font-size: 28px;
+  line-height: 64px;
+  font-size: 14px;
 }
 .modal-content{
   width: 100%;
@@ -214,6 +217,8 @@ main{
   bottom: 0;
   width: 100%;
   height: 8%;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
   background-color: #67b5e6;
 }
 /*tool bars*/
@@ -302,7 +307,7 @@ main{
   }
   /*modal*/
   .modal{
-    margin: 48px 48px 0 48px;
+    margin: 36px 15px 0 15px;
     height: 88%;
   }
   .modal-cancel{
@@ -312,20 +317,21 @@ main{
   .modal-info{
     padding-top: 12px;
     width: 100%;
-    height: 180px;
+    height: 195px;
   }
   .info-month{
     font-size: 21px;
   }
   .info-date{
-    font-size: 72px;
+    line-height: 108px;
+    font-size: 108px;
   }
   .info-day-time{
-    font-size: 21px;
+    font-size: 10.5px;
   }
   .info-location{
-    line-height: 42px;
-    font-size: 21px;
+    line-height: 48px;
+    font-size: 10.5px;
   }
   .modal-content{
     width: 100%;
@@ -409,7 +415,7 @@ main{
   }
   /*modal*/
   .modal{
-    margin: 32px 32px 0 32px;
+    margin: 24px 10px 0 10px;
     height: 88%;
   }
   .modal-cancel{
@@ -419,21 +425,22 @@ main{
   .modal-info{
     padding-top: 8px;
     width: 100%;
-    height: 120px;
+    height: 130px;
   }
   .info-month{
+    line-height: 14px;
     font-size: 14px;
   }
   .info-date{
-    line-height: 48px;
-    font-size: 48px;
+    line-height: 64px;
+    font-size: 72px;
   }
   .info-day-time{
-    font-size: 14px;
+    font-size: 7px;
   }
   .info-location{
-    line-height: 16px;
-    font-size: 14px;
+    line-height: 32px;
+    font-size: 7px;
   }
   .modal-content{
     height: 70%;
