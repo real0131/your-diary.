@@ -35,13 +35,14 @@ function startScroll(){
 
 //diary-card click event (open modal)
 $('.diary-card').click(function(){
-  stopScroll();
+  $('body').css('overflow-y','hidden');
+  $('.modal-content').off('scroll touchmove mousewheel');
   $('.modal-container').removeAttr('display');
 });
 
 //cancel button(in modal) click event (close modal)
 $('.modal-cancel').click(function() {
-  startScroll();
+  $('body').css('overflow-y','initial'); //change overflow property default (to visible)
   $('.modal-container').attr('display','none');
 });
 
