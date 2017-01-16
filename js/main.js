@@ -36,7 +36,6 @@ function startScroll(){
 //diary-card click event (open modal)
 $('.diary-card').click(function(){
   $('body').css('overflow-y','hidden');
-  $('.modal-content').off('scroll touchmove mousewheel');
   $('.modal-container').removeAttr('display');
 });
 
