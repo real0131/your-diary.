@@ -204,9 +204,19 @@ main{
   justify-content: center;
   font-size: 14px;
 }
+.info-weather-location{
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 64px;
+}
+.info-weather{
+    margin-right: 15px;
+}
 .info-location{
-  line-height: 64px;
-  font-size: 14px;
+
 }
 .modal-content{
   width: 100%;
@@ -349,9 +359,9 @@ main{
   .info-day-time{
     font-size: 10.5px;
   }
-  .info-location{
-    line-height: 48px;
+  .info-weather-location{
     font-size: 10.5px;
+    line-height: 48px;
   }
   .modal-content{
     width: 100%;
@@ -458,9 +468,9 @@ main{
   .info-day-time{
     font-size: 7px;
   }
-  .info-location{
-    line-height: 32px;
+  .info-weather-location{
     font-size: 7px;
+    line-height: 32px;
   }
   .modal-content{
     height: 70%;
