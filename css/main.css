@@ -4,7 +4,6 @@ html,body{
   padding: 0;
   margin: 0;
 }
-/*@media screen and (max-device-width: 480px){*/
 /*nav bar*/
 nav{
   z-index: 98;
@@ -16,6 +15,7 @@ nav{
   background-color: white;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+/*segmented-control*/
 .segmented-control-container{
   width: 75%;
   height: 64px;
