@@ -27,8 +27,10 @@ nav{
   padding-top: 72px;
 }
 .profile-picture{
-  height: 64px;
-  width: 64px;
+  height: 56px;
+  width: 56px;
+  margin-left: 20px;
+  border-radius: 50%;
 }
 .profile-info{
   -webkit-box-sizing: border-box;
