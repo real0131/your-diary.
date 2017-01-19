@@ -4,7 +4,6 @@ html,body{
   padding: 0;
   margin: 0;
 }
-/*@media screen and (max-device-width: 480px){*/
 /*nav bar*/
 nav{
   z-index: 98;
@@ -16,6 +15,37 @@ nav{
   background-color: white;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+/*profile-navigation*/
+.profile-nav{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  padding-top: 72px;
+}
+.profile-picture{
+  height: 64px;
+  width: 64px;
+}
+.profile-info{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 28px;
+  padding-left: 28px;
+  text-align: left;
+}
+.profile-info-name{
+  font-size: 24px;
+  line-height: 24px;
+}
+.profile-info-location{
+  font-size: 10px;
+}
+/*segmented-control*/
 .segmented-control-container{
   width: 75%;
   height: 64px;
@@ -299,6 +329,14 @@ main{
   nav{
     height: 132px;
   }
+  .profile-nav{
+    height: 150px;
+    padding-top: 54px;
+  }
+  .profile-info{
+    padding-top: 21px;
+    padding-left: 21px;
+  }
   .segmented-control-container{
     width: 75%;
     height: 48px;
@@ -404,6 +442,14 @@ main{
 (min-resolution: 192dpi) {
   nav{
     height: 80px;
+  }
+  .profile-nav{
+    height: 100px;
+    padding-top: 36px;
+  }
+  .profile-info{
+    padding-top: 14px;
+    padding-left: 14px;
   }
   .segmented-control-container{
     width: 75%;
