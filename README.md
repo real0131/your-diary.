@@ -5,6 +5,7 @@ Makoto Shinkai's 'Your Name.' was impressed by the movie. so I made this project
 
 ##already make
 * Entries
+
 ##not make & plan
 * functional diary, Calender
 * contact
