@@ -1,16 +1,19 @@
 html,body{
   width: 100%;
-  height: 100%;
   padding: 0;
   margin: 0;
 }
 /*nav bar*/
 nav{
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
   z-index: 98;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 176px;
+  height: 216px;
+  padding: 10px 30px;
   text-align: center;
   background-color: white;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -21,9 +24,34 @@ nav{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  height: 176px;
+  height: 288px;
 }
-
-
+.profile-picture{
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+.profile-info{
+  margin-left: 10px;
+  text-align: left;
+}
+.profile-info-name{
+  font-size: 24px;
+}
+.profile-info-location{
+  font-size: 12px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi){
+  nav{
+    height: 162px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 196dpi){
+  nav{
+    height: 108px;
+  }
+}
 
 /*}*/
