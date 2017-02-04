@@ -35,7 +35,9 @@ nav{
   font-size: 24px;
 }
 main{
+  background-color: #eaedec;
   width: 100%;
+  height: 100%;
   position: absolute;
   top: 216px;
 }
@@ -46,9 +48,28 @@ main{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-left: 10%;
-  border-bottom: 2px solid #505050;
+  border-bottom: 2px solid #beafb2;
   width: 90%;
   height: 180px;
+}
+.table:active{
+  background-color: #93b3c3:
+}
+.tool-bars{
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 96px;
+  padding: 20px 0 0 20px;
+  border-top: 2px solid #d8cfd1;
+  background-color: white;
+}
+.tool-bars-search{
+  width: 80%;
+  height: 64px;
+  border-radius: 16px;
+  background-color: #c13f60;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi){
@@ -75,6 +96,15 @@ main{
   .table{
     height: 135px;
   }
+  .tool-bars{
+    height: 72px;
+    padding: 15px 0 0 15px;
+  }
+  .tool-bars-search{
+    height: 48px;
+    border-radius: 12px;
+    background-color: #c13f60;
+  }
 }
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 196dpi){
@@ -100,6 +130,15 @@ main{
   }
   .table{
     height: 90px;
+  }
+  .tool-bars{
+    height: 48px;
+    padding: 10px 0 0 10px;
+  }
+  .tool-bars-search{
+    height: 32px;
+    border-radius: 8px;
+    background-color: #c13f60;
   }
 }
 
