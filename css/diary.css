@@ -1,8 +1,4 @@
-html,body{
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
+
 nav{
   z-index: 98;
   position: fixed;
